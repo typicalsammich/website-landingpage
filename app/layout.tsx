@@ -1,0 +1,6 @@
+import type {Metadata} from 'next';
+import './globals.css';
+const url=process.env.NEXT_PUBLIC_SITE_URL||'https://virtual-agent-ai-websites.typical-sammich.chatgpt.site';
+export const metadata:Metadata={metadataBase:new URL(url),title:'Professional Website Design & SEO | Virtual Agent AI',description:'Custom business websites built for credibility, search visibility, and growth. Explore Virtual Agent AI website packages and get a personalized quote.',alternates:{canonical:'/'},openGraph:{type:'website',title:'Virtual Agent AI Websites',description:'Thoughtful design. Stronger visibility. A better home for your business.',url:'/',images:[{url:'/social-card.png',width:1200,height:630,alt:'Virtual Agent AI Websites'}]},twitter:{card:'summary_large_image',title:'Virtual Agent AI Websites',images:['/social-card.png']},icons:{icon:'/favicon.png'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'Organization',name:'Virtual Agent AI Websites',url,logo:url+'/brand.webp',parentOrganization:{'@type':'Organization',name:'Virtual Agent AI',url:'https://www.virtualagentai.org/'}})}}/></body></html>}
+
