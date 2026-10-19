@@ -17,10 +17,12 @@ Production launch still requires:
 - Platform eligibility/provider availability review for listing distribution. No acceptance, timing, ranking, or AI recommendation guarantees.
 - Provider-level rate limiting/abuse protection for the gateway before public exposure.
 
-The original business logo and contact/legal links came from the parent website. Portfolio examples are labeled demonstrations, not client projects. No reviews, client results, locations, deadlines, or contractual policies were invented. Photos are local assets sourced from Unsplash.
+The original business logo and contact/legal links came from the parent website. The showroom features Imperial Crown Lath & Plastering, LPZ Plumbing Solutions, and Pro Surface from the Premium portfolio at https://www.virtualagentai.dev/. The desktop/mobile switch renders their live websites at 1440px/390px, respectively. No reviews, client results, locations, deadlines, or contractual policies were invented. Photos are local assets sourced from Unsplash.
 
 Verified: TypeScript, production builds, pricing/recommendation/custom-scope calculations, step navigation, package override, live totals, form validation, showroom device switching, mobile menu, AI demonstration, and missing-integration error handling. Responsive layout checks at 320, 375, 390, 430, 768, 1024, 1440, and 1920px found no horizontal overflow, off-screen inputs/buttons, or broken images. Hosted D1 tests verified durable pending quotes and stable references on retries. Real email/CRM delivery remains unverified without credentials. No Lighthouse score is claimed.
 
 The starter Next.js dependency was updated to 16.4.2 after an audit identified issues in the supplied version. Windows sandbox write errors required precreating generated output directories during verification; application builds then completed.
 
 Private Sites publication was blocked by automatic approval review; no detailed reason was supplied. No live deployment is claimed. The complete projects can be run locally and the Vercel edition can be deployed with the Next.js preset after configuring the gateway.
+
+Current presentation: editorial studio hero photograph, arrow-free links and buttons, and a one-time website-fix starting price of $649 in lib/pricing.ts. External previews are read-only; Visit Website opens each full project in a new tab.
