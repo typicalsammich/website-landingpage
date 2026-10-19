@@ -27,7 +27,7 @@ export default function PortfolioPreview({project, mobile}: {project: PortfolioP
       {width > 0 && <iframe
         key={project.url + mobile}
         src={project.url}
-        title={`${project.name} — ${mobile ? 'mobile' : 'desktop'} preview`}
+        title={`${project.name} - ${mobile ? 'mobile' : 'desktop'} preview`}
         width={frameWidth}
         height={frameHeight}
         loading="lazy"
